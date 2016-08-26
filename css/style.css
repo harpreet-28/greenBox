@@ -1,0 +1,51 @@
+div#parentBox {
+    width: 995px;
+    border: none;
+    height: auto;
+    margin: 0px;
+    text-align: center;
+}
+
+div.colorDiv {
+    color: #F2EBD0;
+}
+
+div#parentBox div#boxOne {
+    height: 70px;
+    background: #00a651;
+    text-align: center;
+    line-height: 70px;
+}
+
+div#parentBox div#boxTwo {
+    height: 500px;
+    background: #7cc576;
+    text-align: center;
+    line-height: 500px;
+}
+
+
+/***(dummy div - Pseudo elements)*/
+
+div#parentBox div#boxThree::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+div#parentBox div#boxThree div.divAll {
+    width: 325px;
+    height: 470px;
+    margin: 5px 2.5px;
+    border: none;
+    background: #00a651;
+    float: left;
+    line-height: 470px;
+}
+
+div#parentBox div#boxFour {
+    height: 150px;
+    background: #00a651;
+    text-align: center;
+    line-height: 150px;
+}
